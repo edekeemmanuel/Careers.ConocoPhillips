@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
 }
-
 body {
     background-color: rgb(228, 0, 21);
     font-family: Public Sans,sans-serif;
@@ -15,10 +14,10 @@ body {
 .hc-bg:hover {
     background-color: #C7C7C7 !important;
 }
-.dropdown-item:hover{
+.dropdown-item:hover>.nav-main{
     background-color: rgb(228, 0, 21) ;
 }
-/* style list */
+/* style nav list */
 .bg-one {
     background-color: #6e6e6e;
     font-family: Sora, sans-serif;
@@ -33,6 +32,11 @@ body {
     border-bottom: 1px solid #656969;
     padding-bottom: 5px;
 } 
+.font-two {
+    font-family: Sora, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
 /* hover dropdown */
 .dropdown:hover>.dropdown-menu {
     display: block;
