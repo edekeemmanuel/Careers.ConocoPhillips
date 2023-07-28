@@ -10,7 +10,13 @@ body {
 }
 /* hover color */
 .hc:hover {
-    color: #6e6e6e !important;
+    color: #BDBDBD !important;
+}
+.hc-bg:hover {
+    background-color: #C7C7C7 !important;
+}
+.dropdown-item:hover{
+    background-color: rgb(228, 0, 21) ;
 }
 /* style list */
 .bg-one {
@@ -34,3 +40,8 @@ body {
 .dropdown{
     pointer-event: none;
 }
+/* blur image */
+.bi:hover img {
+    -webkit-filter: blur(1px);
+      filter: blur(0.8px);
+  }
