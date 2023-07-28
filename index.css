@@ -8,8 +8,29 @@ body {
     font-size: 12px;
     font-weight: 400;
 }
-
+/* hover color */
+.hc:hover {
+    color: #6e6e6e !important;
+}
+/* style list */
+.bg-one {
+    background-color: #6e6e6e;
+    font-family: Sora, sans-serif;
+    width: 200px;
+    margin-top: 7.9px !important;
+}
 .font-one {
     font-size: 13px;
     font-weight: 600;
+}
+.hr {
+    border-bottom: 1px solid #656969;
+    padding-bottom: 5px;
+} 
+/* hover dropdown */
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown{
+    pointer-event: none;
 }
