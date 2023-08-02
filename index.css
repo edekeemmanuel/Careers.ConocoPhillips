@@ -14,8 +14,21 @@ body {
 .hc-bg:hover {
     background-color: #C7C7C7 !important;
 }
-.dropdown-item:hover>.nav-main{
+.dropdown-item:hover{
     background-color: rgb(228, 0, 21) ;
+}
+.hcr:hover {
+    color: rgb(228, 0, 21) !important;
+}
+.hcb-bg:hover {
+    background-color : black !important;
+}
+/* hover dropdown */
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown{
+    pointer-event: none;
 }
 /* style nav list */
 .bg-one {
@@ -23,6 +36,14 @@ body {
     font-family: Sora, sans-serif;
     width: 200px;
     margin-top: 7.9px !important;
+}
+.bg-two {
+    background-color: #6e6e6e;
+    font-family: Sora, sans-serif;
+    width: 285px;
+    position: relative;
+    right: -50px;
+    top: 50px;
 }
 .font-one {
     font-size: 13px;
@@ -37,15 +58,57 @@ body {
     font-size: 18px;
     font-weight: 300;
 }
-/* hover dropdown */
-.dropdown:hover>.dropdown-menu {
-    display: block;
-}
-.dropdown{
-    pointer-event: none;
+.font-iii {
+    font-family: Sora, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
 }
 /* blur image */
 .bi:hover img {
     -webkit-filter: blur(1px);
       filter: blur(0.8px);
   }
+/* padding button  */
+.pad {
+    padding-top: 11px !important; 
+    padding-bottom:11px !important;
+    padding-left: 38px !important;
+    padding-right: 38px !important;
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+/* media querries */
+/* 576px and lower screen sizes use small breakpoints. Ex- mobiles. */
+@media only screen and (max-width: 576px) {
+    .navbar-brand {
+        padding-left: 15px !important;
+    }
+    .navbar-brand img {
+        width: 110px;
+        height: 70px;
+    }
+
+}
+/* 576px and greater screen sizes use small breakpoints. Ex- mobiles. */
+@media only screen and (min-width: 576px) {
+    .navbar-brand {
+        padding-left: 15px !important;
+    }
+    .navbar-brand img {
+        width: 120px;
+        height: 80px;
+    }
+/* 768px and greater screen sizes use the medium breakpoints. Ex-tablets. */
+ @media only screen and (min-width: 768px) {...}
+ /* 992px and greater screen sizes use the large breakpoints. Ex- laptops. */
+ @media only screen and (min-width: 992px) {...}
+ /* 1200px and greater screen sizes use the extra-large breakpoints. Ex: Desktops.*/ 
+@media only screen and (min-width: 1200px) {...}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
