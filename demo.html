@@ -3,22 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link address -->
+    <!-- bootstrap css config -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- bootstrap icon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/bootstrap-icons.svg" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- jquery -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js' integrity='sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw==' crossorigin='anonymous'></script>
+    <!-- font awesome icon-->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css' integrity='sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==' crossorigin='anonymous'/>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/svg-with-js.css' integrity='sha512-Hf2JAucOZf9Qz/MfLlGHb99HFIk+bZXOkh2BLBnvFAtGhGa6ZGa/00ElWu9W4La2i9OkReTGkRoLQOaamvqfig==' crossorigin='anonymous'/>
+    <!-- cascading style sheet -->
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="files/fonts/public-san.css" /> 
     <title>Document</title>
 </head>
 <body>
     <div>
         <div>
-            <div class="d-flex">
-                <span class="flex-row">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <p>Search</p>
-                </span>
-                <span class="flex-row-reverse">
-                    <i class="fa-solid fa-xmark"></i>
-                </span>
+            <div class="bg-light d-flex ">
+                <div class="d-flex">
+                    <i class="fa-solid fa-magnifying-glass flex-row py-3 ps-4" style="color: rgba(228,0,21); font-size:20px;"></i>
+                    <form class="">
+                        <label for="search"></label>
+                        <input class="border-0 " type="text" id="search" placeholder="Search">
+                    </form>
+                </div>
+                <div class="d-flex">
+                    <i class="fa-solid fa-xmark flex-row-reverse justify-content-end py-3 " style="color: rgba(228,0,21); font-size:20px;"></i>
+                </div>
             </div>
+            <div style="background-color:#EBF0F0;">
+                <div>
+                    <span>Select a Language</span>
+                    <p>ENGLISH</p>
+                    <p class="hr">NORSK</p>
+                </div>
+                <div>
+                    <div class="" id="" style="padding-left: 11%;">
+                        <ul class="navbar-nav">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link  text-dark font-two hcr" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Working Here</a>
+                            <span class="rounded-5 bg-light" style="padding: 6px;"><img width="15" height="15" src="https://img.icons8.com/windows/32/e40015/expand-arrow--v1.png" alt="expand-arrow--v1"/></span>
+                            <ul class="dropdown-menu py-0 rounded-0 bg-two">
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">WHO WE ARE</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">DIVERSITY, EQUITY & <br>INCLUSION</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">POSITIVE WORK <br> ENVIRONMENT</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">CAREER DEVELOPMENT</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">ENCOURAGING GOOD <br> HEALTH</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">EQUAL EMPLOYMENT <br> OPPORTUNITY</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white">OUR HIRING PROCESS</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown ps-4">
+                            <a class="nav-link  text-dark font-two hcr" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Benefits</a>
+                            <ul class="dropdown-menu py-0 rounded-0 bg-two">
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">AUSTRILIA BENEFITS</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">CANADA BENEFITS</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">NORWAY BENEFITS</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">UNITED KINGDOM BENEFITS</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white">UNITED STATE BENEFITS</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown ps-4">
+                            <a class="nav-link  text-dark font-two hcr" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Locations</a>
+                            <ul class="dropdown-menu py-0 rounded-0 bg-two">
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">AUSTRILIA</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">CANADA</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">CHINA</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">NORWAY</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">UNITED KINGDOM</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white">UNITED STATE</a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown ps-4 pe-3">
+                            <a class="nav-link  text-dark font-two hcr" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Career Areas</a>
+                            <ul class="dropdown-menu py-0 rounded-0 bg-two">
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">BUSINESS PROFESSIONALS</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">DRILLING AND COMPLETIONS</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">ENGINEERING</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">FINANCE</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">GEOSCIENCES</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">HEALTH, SAFETY &amp; <br> ENVIRONMENT</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">HUMAN RESOURCES</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">INFORMATION TECHNOLOGY</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">LAND ADMINISTRATION</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">LAND MANAGEMENT</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">OFFSHORE &amp; ONSHORE <br> OPERATIONS</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white hr">PROJECTS</a>
+                              </li>
+                              <li>
+                                <a href="#" class="dropdown-item font-iii py-3 text-white">SUPPLY CHAIN</a>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                </div>
+            </div>    
         </div>
     </div>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> 
+    
 </body>
 </html>
 
